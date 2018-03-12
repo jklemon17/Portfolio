@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1" />
+
+    <!-- JQuery MUST be above the bootstrap for some of the feautues, like hamburger, to work properly-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Animate.css files for pop-in animations: -->
+    <link rel="stylesheet" type="text/css" href="animate.css">
+
+    <!-- CSS GENERAL -->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <!-- RESPONSIVE CSS FOR SMALLER SCREEN SIZES -->
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+
+    <title>Kyle's Portfolio</title>
+  </head>
+  <body>
+
+        <nav class="navbar navbar-fixed-top">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a id="navLogo" class="navbar-brand" href="index.html">KYLE LEMON</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#aboutMe">ABOUT ME</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+
+
+      <section class="home">
+
+        <div class="container-fluid">
+          <div class="row center-block">
+            <div class="col-md-12">
+              <img id="profilePhoto" class="img-responsive" src="images/profile_photo.jpg" alt="Profile Photo"/><br/>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+              <h1 id="name">KYLE LEMON</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 id="jobTitle"> Full Stack Developer </h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid wow fadeInLeft">
+          <div class="row">
+            <div class="socialDiv col-md-2 col-md-offset-3">
+              <ul style="list-style-type:none">
+                <li class="socialLinks"><a href="mailto:james.kyle.lemon@gmail.com?Subject=Microverse" target="blank"><img class="socialLogo" src="images/mail-logo.png" alt="E-mail"/>Email</a></li>
+              </ul>
+            </div>
+            <div class="socialDiv col-md-2">
+              <ul style="list-style-type:none">
+                <li class="socialLinks"><a href="https://www.linkedin.com/in/kyle-lemon-10487555/" target="blank"><img class="socialLogo" src="images/linkedin-logo.png" alt="LinkedIn"/>LinkedIn</a></li>
+              </ul>
+            </div>
+            <div class="socialDiv col-md-2">
+              <ul style="list-style-type:none">
+                <li class="socialLinks"><a href="https://github.com/jklemon17" target="blank"><img class="socialLogo" src="images/github-logo.png" alt="GitHub"/>GitHub</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section id="aboutMe">
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+
+              <h3>ABOUT ME</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section id="projects">
+
+        <div class="container-fluid">
+          <div class="row">
+
+            <div class="col-sm-10 col-sm-offset-1">
+              <h3>PROJECTS</h3>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-3 col-sm-offset-1 projectLinks">
+              <ul style="list-style-type:none">
+                <li><a href="https://floating-earth-90423.herokuapp.com/" target="blank">Rails Tutorial Sample App</a></li>
+                <li><a href="https://polaristlx.github.io/Brick-Breaker-Game/" target="blank">Brick Breaker</a></li>
+                <li><a href="https://polaristlx.github.io/Snowy-Background-Project/" target="blank">Snowy Background</a></li>
+                <li><a href="https://polaristlx.github.io/Javascript-War-Card-Game/" target="blank">War Card Game</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-8 projectDescrip hidden-xs">
+              <ul style="list-style-type:none">
+                <li>My version of Michael Hartl's Ruby on Rails sample app.</li>
+                <li>A simple brick breaker game.</li>
+                <li>A snowy background animation.</li>
+                <li>A JavaScript card game.</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+
+      <footer id="contact">
+
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-7">
+                  <p>Made with &#10084; by collaboration between Kyle Lemon and Paul Rail.</p>
+              </div>
+              <div class="col-xs-5 footerIconDiv">
+                  <ul style="list-style-type:none">
+                    <li class="footerLogos"><a href="mailto:james.kyle.lemon@gmail.com?Subject=Microverse" target="blank"><img src="images/mail-logo.png" alt="E-mail"/></a></li>
+                    <li class="footerLogos"><a href="https://www.linkedin.com/in/kyle-lemon-10487555/" target="blank"><img src="images/linkedin-logo.png" alt="LinkedIn"/></a></li>
+                    <li class="footerLogos"><a href="https://github.com/jklemon17" target="blank"><img src="images/github-logo.png" alt="GitHub"/></a></li>
+                  </ul>
+              </div>
+            </div>
+        </div>
+
+      </footer>
+
+
+    <!-- Accompanied JS file with scripts written to add more interaction -->
+    <script src="script.js"> </script>
+
+    <!-- WOW.js file for pop-in animations: -->
+        <script src="wow.min.js"></script>
+
+  </body>
+</html>

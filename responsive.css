@@ -1,0 +1,18 @@
+/* for small devices: tablets & phones */
+@media only screen and (max-width: 991px) {
+
+  section.home {
+    padding-bottom: 25px;
+  }
+
+  /* NOTE: Screen width of 992 to 1046 pixels displays LinkedIn below the icon */
+
+  .home ul {
+    margin-left: 35%;
+    text-align: left;
+  }
+
+  .socialDiv {
+    padding: 0;
+  }
+}

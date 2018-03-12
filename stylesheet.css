@@ -1,0 +1,107 @@
+/* NAVBAR SECTION */
+.navbar-fixed-top .navbar-toggle .icon-bar {
+  background-color: #ADF0A7;
+}
+
+.navbar-fixed-top .navbar-toggle {
+  border-color: #ADF0A7;
+}
+.navbar-nav>li>a {
+  color: #ADF0A7;
+}
+
+#navLogo{
+  color: #ADF0A7;
+  font-weight: bold;
+}
+.navbar{
+  background-color: #007F17;
+  list-style-type:none;
+  float: right;
+}
+
+
+/* HOME SECTION */
+.home {
+  clear: both;
+  text-align: center;
+  background-color: #ADF0A7;
+  padding: 100px 75px 55px 75px;
+  border-bottom: 1px solid #007F17;
+  color: black;
+}
+
+#profilePhoto {
+  border-radius: 50%;
+  margin: auto;
+  max-height: 200px;
+}
+
+#name {
+  margin: auto;
+  padding: 15px;
+  border-bottom: 1px solid #007F17;
+}
+#jobTitle {
+  margin: auto;
+  padding: 20px 0px 35px 0px;
+}
+
+.home ul {
+  padding-left: 0;
+}
+.home a {
+  color: black;
+  font-size: 1.5em;
+}
+.socialLinks {
+  display: inline;
+}
+.socialLogo {
+  padding: 5px 10px 5px 0px;
+  height: 40px;
+}
+
+
+/* ABOUT ME / PROJECTS  SECTION */
+#aboutMe {
+  background-color: white;
+  padding-top: 25px;
+}
+#projects {
+  background-color: white;
+  padding-bottom: 25px;
+}
+#projects ul {
+  padding-left: 0;
+}
+.projectLinks {
+  float: left;
+}
+
+
+/* FOOTER */
+footer {
+  background-color: #007F17;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+footer p {
+  color: #ADF0A7;
+  background-color: #007F17;
+  float: left;
+}
+footer ul {
+  padding-left: 0;
+  float: right;
+}
+.footerLogos {
+  display: inline;
+}
+.footerIconDiv {
+  padding-left: 0;
+}
+footer img {
+  height: 30px;
+  padding-right: 5px;
+}
